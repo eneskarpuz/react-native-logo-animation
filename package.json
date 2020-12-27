@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/anastely/react-native-logo-animation/issues"
   },
-  "homepage": "https://github.com/anastely/react-native-logo-animation#readme"
+  "homepage": "https://github.com/anastely/react-native-logo-animation#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": ">=1.9.0",
+    "react-native-reanimated": ">=2.0.0-alpha.9.2",
+    "react-native-svg": "^12.1.0"
+  }
 }

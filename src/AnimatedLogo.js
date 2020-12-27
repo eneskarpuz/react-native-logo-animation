@@ -1,6 +1,6 @@
 import React from 'react';
-import {View, Dimensions, StyleSheet} from 'react-native';
-import {Svg} from 'react-native-svg';
+import { View, Dimensions, StyleSheet } from 'react-native';
+import { Svg } from 'react-native-svg';
 import {
   Easing,
   useSharedValue,
@@ -35,7 +35,7 @@ const AnimatedLogo = ({
             easing: Easing.inOut(Easing.ease),
           }),
           -1,
-          true,
+          true
         )
       : withTiming(1, {
           duration,
@@ -51,7 +51,8 @@ const AnimatedLogo = ({
           height={height}
           viewBox={`${-margin / 2} ${-margin / 2} ${vWidth + margin / 2} ${
             vHeight + margin / 2
-          }`}>
+          }`}
+        >
           {paths.map((d, key) => (
             <AnimatedStroke
               d={d}
@@ -64,13 +65,14 @@ const AnimatedLogo = ({
         </Svg>
       </View>
       {/* eslint-disable-next-line react-native/no-inline-styles */}
-      <View style={[styles.layer, {opacity: 0.2}]}>
+      <View style={[styles.layer, { opacity: 0.2 }]}>
         <Svg
           width={width}
           height={height}
           viewBox={`${-margin / 2} ${-margin / 2} ${vWidth + margin / 2} ${
             vHeight + margin / 2
-          }`}>
+          }`}
+        >
           {paths.map((d, key) => (
             <PlaceholderStroke
               key={key}

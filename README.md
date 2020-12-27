@@ -6,7 +6,15 @@ Add the dependency:
 npm i react-native-logo-animation
 ```
 
---
+# Peer Dependencies
+
+###### IMPORTANT! You need install them
+
+```JSON
+"react-native-reanimated": ">=2.0.0-alpha.9.2",
+"react-native-svg": ">=0.9.1"
+"react-native-gesture-handler": ">=1.9.0"
+```
 
 # Usage
 
@@ -38,3 +46,17 @@ import AnimatedLogo from 'react-native-logo-animation';
   ]}
 />
 ```
+
+### Configuration - Props
+
+| Property            |     Type      | Description                             |
+| ------------------- | :-----------: | --------------------------------------- |
+| margin              |    number     | set the margin for viewBox              |
+| paths               | array[string] | set the Paths `d`                       |
+| vWidth              |    number     | set the svg width/viewBox               |
+| vHeight             |    number     | set the svg height/viewBox              |
+| duration            |    number     | change the animation duration "ms"      |
+| strokeWidth         |    number     | set the image source as uri             |
+| strokeColor         |     color     | change the paths color                  |
+| animatedStrokeColor |     color     | change the Placeholder paths color      |
+| isRepeat            |     bool      | set if you want to repeat the animation |
