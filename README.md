@@ -1,3 +1,7 @@
+<p align="center">
+<img alt="React Native Logo Animation" src="https://github.com/anastely/react-native-logo-animation/blob/master/assets/screenshots/Demo.gif" width="50%" />
+</p>
+
 # Installation
 
 Add the dependency:
@@ -15,6 +19,8 @@ npm i react-native-logo-animation
 "react-native-svg": ">=0.9.1"
 "react-native-gesture-handler": ">=1.9.0"
 ```
+
+# Demo
 
 # Usage
 
@@ -55,8 +61,8 @@ import AnimatedLogo from 'react-native-logo-animation';
 | paths               | array[string] | set the Paths `d`                       |
 | vWidth              |    number     | set the svg width/viewBox               |
 | vHeight             |    number     | set the svg height/viewBox              |
-| duration            |    number     | change the animation duration "ms"      |
+| duration            |    number     | change the Animation duration "ms"      |
 | strokeWidth         |    number     | set the image source as uri             |
-| strokeColor         |     color     | change the paths color                  |
-| animatedStrokeColor |     color     | change the Placeholder paths color      |
+| strokeColor         |     color     | change the placeholder paths color      |
+| animatedStrokeColor |     color     | change the Animated paths color         |
 | isRepeat            |     bool      | set if you want to repeat the animation |
