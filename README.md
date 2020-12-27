@@ -9,6 +9,10 @@ Add the dependency:
 ```ruby
 npm i react-native-logo-animation
 ```
+Or
+```ruby
+yarn add react-native-logo-animation
+```
 
 # Peer Dependencies
 
@@ -20,7 +24,6 @@ npm i react-native-logo-animation
 "react-native-gesture-handler": ">=1.9.0"
 ```
 
-# Demo
 
 # Usage
 
