@@ -1,0 +1,25 @@
+{
+  "name": "react-native-logo-animation",
+  "version": "1.0.0",
+  "description": "Svg Logo Animation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anastely/react-native-logo-animation.git"
+  },
+  "keywords": [
+    "react-native",
+    "svg",
+    "react-native-reanimated",
+    "animation"
+  ],
+  "author": "AnasTely",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anastely/react-native-logo-animation/issues"
+  },
+  "homepage": "https://github.com/anastely/react-native-logo-animation#readme"
+}
