@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="React Native Logo Animation" src="https://github.com/anastely/react-native-logo-animation/blob/master/assets/screenshots/Demo.gif" width="50%" />
+<img alt="React Native Logo Animation" src="https://github.com/anastely/react-native-logo-animation/blob/main/assets/screenshots/Demo.gif" width="50%" />
 </p>
 
 # Installation
