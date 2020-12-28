@@ -21,7 +21,6 @@ yarn add react-native-logo-animation
 ```JSON
 "react-native-reanimated": ">=2.0.0-alpha.9.2",
 "react-native-svg": ">=0.9.1"
-"react-native-gesture-handler": ">=1.9.0"
 ```
 
 
